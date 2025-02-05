@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             linkbushDesc: "Developed and deployed a modern link management solution hosted on GitHub Pages, utilizing HTML5, CSS3/SASS, and JavaScript. This custom implementation features responsive design and seamless integration with my domain infrastructure at justneki.com.",
             
             miscWebTitle: "Misc Web Projects",
-            miscWebDesc: "Developed and maintain a diverse portfolio of web applications, including an educational IDE for UNQ's programming, advanced computational tools (truth table generator, multi-base calculator), interactive multiplayer games, and utility applications. These projects demonstrate proficiency in full-stack development and algorithm implementation.",
+            miscWebDesc: "Developed and currently maintain a diverse portfolio of web applications, including an educational IDE for UNQ's programming, advanced computational tools (truth table generator, multi-base calculator), interactive multiplayer games, and utility applications. These projects demonstrate proficiency in full-stack development and algorithm implementation.",
 
             // Skills categories
             gameDev: "Game Development",
@@ -239,10 +239,26 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    document.querySelector('.download-button').dataset.enPdf = 'Santiago_Fisela_CV_EN.pdf';
+    document.querySelector('.download-button').dataset.esPdf = 'Santiago_Fisela_CV_ES.pdf';
+
+    function getCurrentLanguage() {
+        return localStorage.getItem('lang') || 'en';
+    }
+
+    function updatePDFLink() {
+        const downloadButton = document.querySelector('.download-button');
+        const currentLang = getCurrentLanguage();
+        const pdfPath = currentLang === 'en' ? downloadButton.dataset.enPdf : downloadButton.dataset.esPdf;
+        downloadButton.href = pdfPath;
+    }
+
     langSwitch.addEventListener('click', () => {
         currentLang = currentLang === 'en' ? 'es' : 'en';
         updateLanguage(currentLang);
         localStorage.setItem('lang', currentLang);
+        updatePDFLink(); 
     });
 
     // Check for saved language preference
@@ -251,4 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentLang = savedLang;
         updateLanguage(currentLang);
     }
+
+    // Initial PDF link setup
+    updatePDFLink();
 });

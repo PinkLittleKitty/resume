@@ -9,8 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 </head>
-<body>
+<body class="dark-theme">
     <div class="container">
         <header class="header">
             <h1>Santiago Fisela</h1>
@@ -27,6 +28,19 @@
         </div>
         <div class="lang-switch">
             <i class="fas fa-language"></i>
+        </div>
+        <div class="download-section">
+            <a href="#" class="download-button" 
+               data-en-pdf="Santiago_Fisela_CV_EN.pdf" 
+               data-es-pdf="Santiago_Fisela_CV_ES.pdf" 
+               title="Download PDF">
+                <i class="fas fa-download"></i>
+            </a>
+        </div>     
+        <div class="back-to-top">
+            <button class="top-button" title="Back to top">
+                <i class="fas fa-arrow-up"></i>
+            </button>
         </div>
 
         <main>
@@ -188,7 +202,7 @@
                         <span class="proficiency">B2+</span>
                     </div>
                 </div>
-            </section>
+            </section>    
         </main>
     </div>
 <script src="script.js"></script>
