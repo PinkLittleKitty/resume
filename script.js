@@ -47,10 +47,11 @@ document.addEventListener('DOMContentLoaded', () => {
             farTeam: "F.a.R. Team",
             dateAprilFeb: "April 2024 - February 2025",
             dateOctPresent: "October 2022 - Present",
+            dateSeptGameJam: "September 15th - 25th, 2023 (Game Jam)",
             dateSept: "September 15th - 25th, 2023",
-            leadDescription: "Lead programmer in a team of 3, for an Unity-powered 3D resource management game.",
-            roomMakersDesc: "Lead programmer in a team of 3, we released a game called Room Makers, that came out 67th, out of 403 entries, we're now working on a finished version of it that'll be mobile focused.",
-
+            leadDescriptionFarTeam: "Leading a team of 3 in the ongoing development of 'Codename Farmoxel', a Unity-powered 3D resource management game. Overseeing core system architecture, gameplay mechanics, and project coordination.", // English version
+            roomMakersJamDesc: "Led a team of 3 as Lead Programmer during a 10-day game jam, rapidly prototyping 'Room Makers'. Achieved 67th place out of 403 entries, demonstrating quick development capabilities and laying the foundation for the project's subsequent full release.", // English version
+            
             // Formation section
             computerScience: "Degree in Computer Science",
             englishCert: "B2+ English Certification",
@@ -71,16 +72,20 @@ document.addEventListener('DOMContentLoaded', () => {
             farmoxelTitle: "Codename Farmoxel",
             farmoxelSubtitle: "Unity-powered 3D Resource Management Game",
             farmoxelDesc: "Leading the development of a sophisticated resource management simulation, leveraging Unity's 3D capabilities. This collaborative project has been instrumental in developing project management expertise and team leadership skills while maintaining technical oversight of core systems.",
+
+            roomMakersTitle: "Room Makers",
+            roomMakersSubtitle: "Unity-powered Game Boy style Room Building Game",
+            roomMakersProjectDesc: "Led the development and recent launch of 'Room Makers', a Unity-powered game-boy-style room building game. Evolved from a successful game jam prototype (ranked 67th/403), guiding a team of 3 through full development and publication on the google play store.",
             
             linkbushTitle: "LinkBush",
             linkbushSubtitle: "Custom Link Management Platform",
-            linkbushDesc: "Developed and deployed a modern link management solution hosted on GitHub Pages, utilizing HTML5, CSS3/SASS, and JavaScript. This custom implementation features responsive design and seamless integration with my domain infrastructure at justneki.com.",
+            linkBushDesc: "Developed and deployed a modern link management solution hosted on GitHub Pages, utilizing HTML5, CSS3/SASS, and JavaScript. This custom implementation features responsive design and seamless integration with my domain infrastructure at justneki.com.",
             
             miscWebTitle: "Misc Web Projects",
-            miscWebDesc: "Developed and currently maintain a diverse portfolio of web applications, including an educational IDE for UNQ's programming, advanced computational tools (truth table generator, multi-base calculator), interactive multiplayer games, and utility applications. These projects demonstrate proficiency in full-stack development and algorithm implementation.",
+            miscWebDesc: "Developed and currently maintain a diverse portfolio of web applications, such as FaR Team's landing page and Devlog, an educational IDE for UNQ's programming, advanced computational tools (truth table generator, multi-base calculator), interactive multiplayer games, and utility applications. These projects demonstrate proficiency in full-stack development and algorithm implementation.",
 
             // Skills categories
-            gameDev: "Game Development",
+            gameDev: "Game Development Engines & Languages",
             webDev: "Web Development",
             otherTech: "Other Technologies",
             coreSkills: "Core Skills",
@@ -123,9 +128,10 @@ document.addEventListener('DOMContentLoaded', () => {
             farTeam: "F.a.R. Team",
             dateAprilFeb: "Abril 2024 - Febrero 2025",
             dateOctPresent: "Octubre 2022 - Presente",
+            dateSeptGameJam: "Septiembre 15 - 25, 2023 (Game Jam)",
             dateSept: "15 - 25 de Septiembre, 2023",
-            leadDescription: "Programador líder en un equipo de 3, para un juego de gestión de recursos 3D desarrollado en Unity.",
-            roomMakersDesc: "Programador líder en un equipo de 3, lanzamos un juego llamado Room Makers, que quedó en el puesto 67 de 403 participantes, actualmente trabajamos en una versión completa enfocada a móviles.",
+            leadDescriptionFarTeam: "Liderando un equipo de 3 en el desarrollo continuo de 'Codename Farmoxel', un juego 3D de gestión de recursos desarrollado en Unity. Responsable de la arquitectura de sistemas centrales, mecánicas de juego y coordinación del proyecto.",
+            roomMakersJamDesc: "Lideré un equipo de 3 como Programador Líder durante una game jam de 10 días, prototipando rápidamente 'Room Makers'. Alcanzamos el puesto 67 de 403 participantes, demostrando rápidas capacidades de desarrollo y sentando las bases para el posterior lanzamiento completo del proyecto.",
 
             // Formation section
             computerScience: "Licenciatura en Informática",
@@ -147,16 +153,19 @@ document.addEventListener('DOMContentLoaded', () => {
             farmoxelTitle: "Codename Farmoxel",
             farmoxelSubtitle: "Juego de Gestión de Recursos 3D en Unity",
             farmoxelDesc: "Lidero el desarrollo de una simulación sofisticada de gestión de recursos, aprovechando las capacidades 3D de Unity. Este proyecto colaborativo ha sido instrumental en desarrollar experiencia en gestión de proyectos y habilidades de liderazgo de equipo mientras mantengo la supervisión técnica de los sistemas principales.",
-            
+
+            roomMakersTitle: "Room Makers",
+            roomMakersSubtitle: "Juego de construcción de habitaciones estilo Game Boy, desarrollado en Unity",
+            roomMakersProjectDesc: "Lideré el desarrollo y el reciente lanzamiento de 'Room Makers', un juego de construcción de habitaciones estilo Game Boy desarrollado en Unity. Evolucionado de un prototipo exitoso de game jam (clasificado 67º de 403), guiando a un equipo de 3 a través del desarrollo completo y la publicación en la Google Play Store.",
             linkbushTitle: "LinkBush",
             linkbushSubtitle: "Plataforma Personalizada de Gestión de Enlaces",
-            linkbushDesc: "Desarrollé y desplegué una solución moderna de gestión de enlaces alojada en GitHub Pages, utilizando HTML5, CSS3/SASS y JavaScript. Esta implementación personalizada cuenta con diseño responsivo e integración perfecta con mi infraestructura de dominio en justneki.com.",
+            linkBushDesc: "Desarrollé y desplegué una solución moderna de gestión de enlaces alojada en GitHub Pages, utilizando HTML5, CSS3/SASS y JavaScript. Esta implementación personalizada cuenta con diseño responsivo e integración perfecta con mi infraestructura de dominio en justneki.com.",
             
             miscWebTitle: "Proyectos Web Diversos",
-            miscWebDesc: "Desarrollé y mantengo un portafolio diverso de aplicaciones web, incluyendo un IDE educativo para programación de UNQ, herramientas computacionales avanzadas (generador de tablas de verdad, calculadora multi-base), juegos multijugador interactivos y aplicaciones utilitarias. Estos proyectos demuestran competencia en desarrollo full-stack e implementación de algoritmos.",
+            miscWebDesc: "Desarrollé y mantengo un portafolio diverso de aplicaciones web, tales como la página web y el devlog de FaR Team, un IDE educativo para programación de UNQ, herramientas computacionales avanzadas (generador de tablas de verdad, calculadora multi-base), juegos multijugador interactivos y aplicaciones utilitarias. Estos proyectos demuestran competencia en desarrollo full-stack e implementación de algoritmos.",
 
             // Skills categories
-            gameDev: "Desarrollo de Juegos",
+            gameDev: "Engines de Desarrollo de Juegos & Lenguajes",
             webDev: "Desarrollo Web",
             otherTech: "Otras Tecnologías",
             coreSkills: "Habilidades Principales",
