@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
         en: {
             title: "Core Programmer",
             location: "Gerli (Buenos Aires)",
-            phone: "(+54) 911 5645 9566",
+            phone: "(+54) 11 5645 9566",
             email: '<a href="mailto:contacto@justneki.com">contacto@justneki.com</a>',
             experience: "Experience",
             formation: "Formation",
@@ -55,10 +55,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Formation section
             computerScience: "Degree in Computer Science",
             englishCert: "B2+ English Certification",
+            englishCertFirst: "Cambridge English C1 First (185 Overall Score)",
             unq: "National University of Quilmes",
+            englishFirstLocation: "Asociación Argentina de Cultura Inglesa",
             englishSchool: "English School, Lanús",
             dateUnq: "2022 - Present",
             dateEnglish: "2007-2021",
+            dateEnglishFirst: "2025",
 
             // Projects section
             dsxTitle: "DSX",
@@ -112,7 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
         es: {
             title: "Programador Central",
             location: "Gerli (Buenos Aires)",
-            phone: "(+54) 911 5645 9566",
+            phone: "(+54) 11 5645 9566",
             email: '<a href="mailto:contacto@justneki.com">contacto@justneki.com</a>',
             experience: "Experiencia",
             formation: "Formación",
@@ -136,10 +139,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Formation section
             computerScience: "Licenciatura en Informática",
             englishCert: "Certificación de Inglés B2+",
+            englishCertFirst: "Inglés Cambridge First C1 (185 Puntuación general)",
             unq: "Universidad Nacional de Quilmes",
             englishSchool: "Instituto de Inglés, Lanús",
+            englishFirstLocation: "Asociación Argentina de Cultura Inglesa",
             dateUnq: "2022 - Presente",
             dateEnglish: "2007-2021",
+            dateEnglishFirst: "2025",
 
             // Projects section
             dsxTitle: "DSX",
